@@ -8,6 +8,8 @@ import NotFound from "../imports/ui/NotFound";
 import Link from "../imports/ui/Link";
 import Login from "../imports/ui/Login";
 
+//use to move to a page
+
 const routes=(
   <Router history={browserHistory}>
       <Route path='/' component={Login}/>
